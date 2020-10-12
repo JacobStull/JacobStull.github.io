@@ -2,19 +2,20 @@
     text-align: right;
     background-color: white;
     padding: 15px;
-    margin: -10px
-    
-    
+    margin: -10px;
+    border: solid 3px grey;
+    border-style: inset;
     
 }
 .buttonOne {
     font-family: Arial, Geneva, Helvetica, sans-serif; 
-    font-size: 35px;
+    font-size: 28px;
     background-color: #0080FF;
     color: white;
     border-radius: 5px;
-    padding: 5px;
-    border: solid thin black;
+    padding: 10px 15px 10px 15px;
+    margin-left: 10px;
+    border: none;
     
 }
 .buttonOne:hover {
@@ -50,17 +51,21 @@ input[type=text], input[type=password] {
     border-radius: 6px;
     
 }
-.sub {
+.block {
+    position: relative;
+    left: 99px;
+    display: block;
+    width: 59%;
     font-family: Arial, Geneva, Helvetica, sans-serif; 
     font-size: 35px;
     background-color: #0080FF;
     color: white;
     border-radius: 5px;
     padding: 5px;
-    border: solid thin black;
+    border: none;
     
 }
-.sub:hover {
+.block:hover {
     opacity: 0.7;
 }
 
